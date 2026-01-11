@@ -9,7 +9,7 @@ import pandas as pd
 dosya_yolu = ("TRSH2010_Erkek.csv")
 
 # Hem ayırıcıyı (sep) hem de ondalık işaretini (decimal) belirtiyoruz
-df = pd.read_csv(dosya_yolu, sep=';', decimal=',', encoding='latin1')
+df = pd.read_csv(dosya_yolu, sep=';', decimal=',')
 
 # Sütun isimlerindeki olası hataları (büyük harf, boşluk) temizliyoruz
 df.columns = df.columns.str.strip().str.lower()
