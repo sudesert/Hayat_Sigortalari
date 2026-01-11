@@ -13,7 +13,7 @@
 ---
 ## Proje Hakkında
 
-Bu proje, aktüeryal hesaplamaların dijitalleştirilmesi amacıyla tasarlanmış üç aşamalı bir projenin ilk adımıdır (Modül-1). Akademik çalışmalarım kapsamında TRSH-2010 (Türkiye Sigortalı Hayat Tablosu) Mortalite Tablosu verilerini Python programlama dili ile entegre ederek paranın zaman değerini modellemektedir.
+Bu proje, aktüeryal hesaplamaların dijitalleştirilmesi amacıyla tasarlanmış üç aşamalı bir projenin ilk adımıdır (Modül 1-Yasam Sigortaları). Akademik çalışmalarım kapsamında TRSH-2010 (Türkiye Sigortalı Hayat Tablosu) Mortalite Tablosu verilerini Python programlama dili ile entegre ederek paranın zaman değerini modellemektedir.
 
 - TRSH-2010 Erkek sigortalı hayat tablosu verileri işlenmektedir.
 - Kullanıcı tarafından belirlenen teknik faiz oranına göre dinamik olarak komütasyon sütunları (Dx, Nx, Sx, Cx, Mx, Rx ) hesaplanmaktadır. 
