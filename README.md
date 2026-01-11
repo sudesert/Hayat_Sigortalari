@@ -119,4 +119,4 @@ En gelişmiş modüldür.
 
 
 
-📐 Kullanılan FormüllerProje, aktüeryal komütasyon sayılarını ($D_x, N_x, S_x$) kullanarak hesaplama yapar:Dönem Başı Rant: $\ddot{a}_x = \frac{N_x}{D_x}$Dönem Sonu Rant: $a_x = \frac{N_{x+1}}{D_x}$Süreli Rant: $\ddot{a}_{x:\overline{n|}} = \frac{N_x - N_{x+n}}{D_x}$Aritmetik Artan Rant: $(I\ddot{a})_x = \frac{S_x}{D_x}$
+
