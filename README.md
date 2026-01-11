@@ -1,6 +1,6 @@
 # 📊 Hayat_Sigortalari
 
-## Geliştirici Hakkında
+## 👤 Geliştirici Hakkında
 
 **İsim Soyisim:** *Sude Sert*
 
@@ -11,7 +11,7 @@
 **İletişim:** *sudesert81@gmail.com veya www.linkedin.com/in/sudesert*
 
 ---
-## Proje Hakkında
+## 📝 Proje Hakkında
 
 Bu proje, aktüeryal hesaplamaların dijitalleştirilmesi amacıyla tasarlanmış üç aşamalı bir projenin ilk adımıdır (Modül 1-Yasam Sigortaları). Akademik çalışmalarım kapsamında TRSH-2010 (Türkiye Sigortalı Hayat Tablosu) Mortalite Tablosu verilerini Python programlama dili ile entegre ederek paranın zaman değerini modellemektedir.
 
@@ -19,6 +19,14 @@ Bu proje, aktüeryal hesaplamaların dijitalleştirilmesi amacıyla tasarlanmı�
 - Kullanıcı tarafından belirlenen teknik faiz oranına göre dinamik olarak komütasyon sütunları (Dx, Nx, Sx, Cx, Mx, Rx ) hesaplanmaktadır. 
 - Yaşam sigortalarında prim ve teminat hesabını kapsar
 - Modül-1, hayat sigortaları kapsamındaki yaşam olasılıklarını baz alarak prim ve teminat hesaplama süreçlerini dijitalleştirmektedir.
+
+---
+## ⚠️ Kapsam ve Teknik Detaylar
+Bu modül sadece **"Yaşam Teminatlı" (Survival Benefits)** ürünleri kapsamaktadır.
+* **Dahil Olanlar:** Saf Kapital, Ömür Boyu Rantlar, Süreli Rantlar (Kişi yaşadığı sürece ödeme yapılanlar).
+* **Veri Seti:** TRSH-2010 Erkek sigortalı hayat tablosu.
+* **Komütasyon:** Kullanıcı tarafından belirlenen teknik faiz oranına göre dinamik olarak hesaplanan $D_x, N_x, S_x$ sütunları.
+
 ---
 ## 🛠️ Kurulum ve Çalıştırma Aşamaları
 
@@ -115,7 +123,6 @@ En gelişmiş modüldür.
 * **Fonksiyon:** `adoys_...`
 * **Ne Yapar?**: Sabit değil, her yıl belirli bir tutarda artan (+) veya azalan (-) maaşları hesaplar.
 * **Özellik:** Azalan sigortalarda maaşın eksiye düşüp düşmediğini otomatik kontrol eder (Smart Safety Check).
-
 
 
 
